@@ -1,0 +1,110 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Styling for Jumbotron */
+.jumbotron {
+    margin-bottom: 0;  /* To remove any extra margin at the bottom */
+    background-color: #1a1a1a; /* Dark background */
+    color: #ffffff; /* White text */
+}
+
+.jumbotron .container {
+    max-width: 1200px; /* Set a max width for the content inside the jumbotron */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 2rem; /* Add some padding for better spacing */
+}
+
+.jumbotron h1 {
+    font-size: 3rem; /* Adjust the font size of the title */
+    font-weight: bold; /* Make the title bold */
+    text-align: center; /* Center the title */
+}
+
+.header, .footer {
+    /* Gradient Background */
+    background: linear-gradient(to right, #002f4b, #0e76a8);
+    color: white;
+    padding: 15px 30px;
+
+    /* Header Border */
+    border-bottom: 5px solid #0e76a8;
+
+    /* Lighting and Shadows */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center;     /* Vertically centers the content */
+}
+
+.results-container {
+    margin-bottom: 10px;
+}
+
+.criteria {
+    margin: 15px 0;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+button {
+    padding: 8px 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.show-all, .view {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.add-fav {
+    background-color: #28A745;
+    color: #fff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .favorite-btn, .view-btn {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #007BFF;  /* Adjust color as needed */
+    color: white;
+    border-radius: 4px;
+  }
+  
+  .favorite-btn:hover, .view-btn:hover {
+    background-color: #0056b3;  /* Adjust hover color as needed */
+  }
+
+.table-container {
+    margin-bottom: 500px; /* This value creates space between the table and the footer. Adjust as necessary. */
+}
+
+
+/* Add other styles like gradients, typography, etc. here */
